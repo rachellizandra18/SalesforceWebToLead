@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
+
+</head>
+<body>
+    <h1>Cadastre-se no site da Bug Hunter!</h1>
+
+    <form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="beforeSubmit(event)" method="POST">
+    
+        <input type=hidden name="oid" value="00Dak000000cfaV">
+        <input type=hidden name="retURL" value="C:\Users\Dreamxp\Documents\estudos\Teste\thank_you_for_subscribing.html">
+
+        <!-- <input type=hidden name='captcha_settings' value='{"keyname":"BugHunter","fallback":"true","orgId":"00Dak000000cfaV","ts":""}'> -->
+
+        <label for="first_name">Primeiro Nome</label><input required id="first_name" name="first_name" size="20" type="text" />
+
+        <label for="last_name">Sobrenome</label><input required id="last_name" name="last_name" size="20" type="text" />
+
+        <label for="email">Email</label><input required id="email" name="email" size="20" type="text" />
+
+        <label for="phone">Telefone</label><input required id="phone" name="phone" size="20" type="text" />
+
+        <label for="company">Empresa</label><input  id="company" name="company" size="20" type="text" />
+
+        <label for="city">Cidade</label><input required id="city" name="city" size="20" type="text" />
+
+        <label for="state">Estado</label><input required id="state" name="state" size="20" type="text" />
+
+        <label>Tipo de Atendimento </label><select required id="00Nak000000Byvj" name="00Nak000000Byvj" title="Tipo de Atendimento"><option value="">-- Nenhum --</option><option value="Automotivo">Automotivo</option>
+            <option value="Residencial">Residencial</option>
+            <option value="Comercial">Comercial</option>
+            <option value="Industrial">Industrial</option>
+            <option value="Outros">Outros</option>
+            </select>
+            
+            <label for="lead_source"></label><select hidden id="lead_source" name="lead_source"><option value="">-- Nenhum --</option><option value="Site" selected>Site</option>
+            <option value="Telefone">Telefone</option>
+            <option value="Email">Email</option>
+            <option value="Outros">Outros</option>
+            </select>
+        <!-- <div class="g-recaptcha" data-sitekey="6LfF8mMpAAAAALDOiXSkCRdisklU6WFzbgjSuogv"></div><br>   -->
+
+        <input type="submit" name="submit">
+    
+    </form>
+    
+</body>
+</html>
+
+

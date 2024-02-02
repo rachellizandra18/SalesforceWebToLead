@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-top: 100px; 
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-top: 10px;
+    font-size: large;
+    color: white;
+}
+
+input {
+    width: 100%;
+    margin: 10px auto 0 auto;
+    padding: 2px;
+}
+
+
+input[type="submit"] {
+    margin: 15px auto 0 auto;
+    width: 20%;
+    color: black;
+    padding: 8px;
+}
+
+select {
+    width: 60%;
+    margin: 10px auto 0 auto;
+    padding: 2px; 
+}
+
+form {
+    min-width: 400px;
+    max-width: 600px;
+    margin: 15px auto;
+    border: 2px solid white;
+    padding: 15px;
+}
+
+body {
+background-image: url('BugBounty.png');
+}
+
+title {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
